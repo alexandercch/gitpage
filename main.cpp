@@ -3,8 +3,8 @@
 using namespace std;
 
 long long int fib(int n){
-		
-	return 0;
+	if(n<2) return n;	
+	return fib(n-1)+fib(n-2);
 }
 
 int main(){
